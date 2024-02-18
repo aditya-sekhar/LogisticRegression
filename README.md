@@ -15,9 +15,13 @@ In the context of logistic regression, binary classification refers to categoriz
 ### The Formula
 The core of Logistic Regression is represented by the equation: 
 
-\[
-\sigma(y) = 1/1 + e^-(wx + B)
-\]
+``` 
+fx = w * x + B
+
+sigmoid(z) = 1/1 + e^-(z)
+
+fz = sigmoid(z)
+```
 
 - \( sigma(y) \) is the predicted probability.
 - \(x\) is your input.
